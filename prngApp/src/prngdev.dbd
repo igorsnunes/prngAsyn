@@ -1,0 +1,4 @@
+include "base.dbd"
+include "asyn.dbd"
+device(ai,INST_IO,devAiPrng,"Random")
+registrar(prngRegister)
